@@ -6,7 +6,7 @@
 ## Table of Contents
 1. [Prerequisites](#-prerequisites)
 2. [Project Overview](#project-overview)
-3. [Installing Oracle VirtualBox](#installing-oracle-virtualbox)
+3. [Installing Oracle VirtualBox and VirtualBox Extension Pack](#installing-oracle-virtualbox-and-virtualbox-extension-pack)
 4. [Server Installation (DC)](#server-installation-dc)
 5. [Windows 10 Client Installation](#windows-10-client-installation)
 6. [Active Directory Configuration](#active-directory-configuration)
@@ -30,9 +30,12 @@ Before starting this lab, you will need to download and install the following so
 ---
 
 ## Installing Oracle VirtualBox and VirtualBox Extension Pack
-1. 
 
-<img width="838" height="575" alt="image" src="https://github.com/user-attachments/assets/c6e9fde3-4bb8-4831-92cc-721de9d2000f" />
+1. Downloaded the `Windows hosts` VirtualBox version
+2. Opened the .exe file to begin the installation
+3. Clicked `Next`
+
+<img width="491" height="389" alt="image" src="https://github.com/user-attachments/assets/d90672ae-1553-46d0-8150-8bb2e5b4cd29" />
 
 4. Accepted the terms agreement and clicked `Next`
 
@@ -50,10 +53,29 @@ Before starting this lab, you will need to download and install the following so
 
 <img width="496" height="392" alt="image" src="https://github.com/user-attachments/assets/1fc743b8-3c28-4384-8dc4-c09f0290d2d6" />
 
+8. Unchecked `Add to Start menu`, kept the other two options checked, and clicked `Next`
 
+<img width="494" height="392" alt="image" src="https://github.com/user-attachments/assets/1840bc5e-ba7f-4bdf-9326-500123ce2422" />
 
+9. Clicked `Install`
 
+<img width="495" height="391" alt="image" src="https://github.com/user-attachments/assets/de4ec14c-32c9-4c79-9aed-8df97762c3e8" />
 
+10. Once it successfully installed, I unchecked `Start Oracle VirtualBox 7.2.6` (because I'm going to be installing the VirtualBox Extension Pack before starting VB up) and clicked `Finish`
+
+<img width="493" height="393" alt="image" src="https://github.com/user-attachments/assets/5822ac19-62a1-4ebf-844b-8e1e2093c6a0" />
+
+11. Went back to https://www.virtualbox.org/wiki/Downloads to download the VirtualBox Extension Pack and clicked `Accept and Download`
+
+<img width="533" height="251" alt="image" src="https://github.com/user-attachments/assets/c785f887-e478-4a82-9c6e-7bd7b949e59e" />
+
+12. Clicked on the .exe file, scrolled down to the bottom of the agreements, and clicked `I Agree`
+
+<img width="600" height="482" alt="image" src="https://github.com/user-attachments/assets/044dba1d-58bc-4f59-adb3-7a0890edb32d" />
+
+Now Oracle VirtualBox and the VirtualBox Extension Pack are both installed successfully.
+
+---
 
 ## Server Installation (DC)
 * **Image:** Windows Server 2022 Datacenter Evaluation (Desktop Experience).
