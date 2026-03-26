@@ -18,13 +18,41 @@
 ## Prerequisites
 Before starting this lab, you will need to download and install the following software. Note that the Windows ISOs are evaluation versions and will require a free registration on Microsoft's site.
 * [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
 * [Windows Server 2022 EVAL ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
 * [Windows 10 EVAL ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)
 
+---
+
 ## Project Overview
-This lab demonstrates how to set up a functional Active Directory environment from scratch. I focused on server promotion, user management with "Least Privilege" principles, and troubleshooting DNS connectivity between virtualized machines.
+
 
 ---
+
+
+
+<img width="838" height="575" alt="image" src="https://github.com/user-attachments/assets/c6e9fde3-4bb8-4831-92cc-721de9d2000f" />
+
+4. Accepted the terms agreement and clicked `Next`
+
+<img width="495" height="390" alt="image" src="https://github.com/user-attachments/assets/1dc5c130-a294-4656-b430-e77bf45fbb87" />
+
+5. Verified location of where the application was going to be installed and clicked `Next`
+
+<img width="496" height="394" alt="image" src="https://github.com/user-attachments/assets/adfeaffe-99f0-4d8b-ba97-1d6cdfa8f944" />
+
+6. Was given a warning message about temporary network disconnection while Oracle VirtualBox installs. I acknowledged this and clicked `Yes`
+
+<img width="494" height="392" alt="image" src="https://github.com/user-attachments/assets/533990c4-7c09-472f-8633-d110acc3cf08" />
+
+7. It mentioned I was missing some dependencies, but since I'm not using Python for this project I acknowledged and clicked `Yes`
+
+<img width="496" height="392" alt="image" src="https://github.com/user-attachments/assets/1fc743b8-3c28-4384-8dc4-c09f0290d2d6" />
+
+
+
+
+
 
 ## Server Installation (DC)
 * **Image:** Windows Server 2022 Datacenter Evaluation (Desktop Experience).
