@@ -16,6 +16,7 @@
 ---
 
 ## Prerequisites
+Before starting this lab, you will need to download and install the following software. Note that the Windows ISOs are evaluation versions and will require a free registration on Microsoft's site.
 [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 [Windows Server 2022 EVAL ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
 [Windows 10 EVAL ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)
