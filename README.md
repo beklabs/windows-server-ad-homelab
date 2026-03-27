@@ -26,50 +26,48 @@ Before starting this lab, you will need to download and install the following so
 
 ## Project Overview
 
-
 ---
 
 ## Installing Oracle VirtualBox and VirtualBox Extension Pack
 
-1. Downloaded the `Windows hosts` VirtualBox version
-2. Opened the .exe file to begin the installation
-3. Clicked `Next`
+1. From https://www.virtualbox.org/wiki/Downloads, I downloaded the `Windows hosts` VirtualBox version and opened the .exe file to begin installation
+2. Clicked `Next`
 
 <img width="491" height="389" alt="image" src="https://github.com/user-attachments/assets/d90672ae-1553-46d0-8150-8bb2e5b4cd29" />
 
-4. Accepted the terms agreement and clicked `Next`
+3. Accepted the terms agreement and clicked `Next`
 
 <img width="495" height="390" alt="image" src="https://github.com/user-attachments/assets/1dc5c130-a294-4656-b430-e77bf45fbb87" />
 
-5. Verified location of where the application was going to be installed and clicked `Next`
+4. Verified location of where the application was going to be installed and clicked `Next`
 
 <img width="496" height="394" alt="image" src="https://github.com/user-attachments/assets/adfeaffe-99f0-4d8b-ba97-1d6cdfa8f944" />
 
-6. Was given a warning message about temporary network disconnection while Oracle VirtualBox installs. I acknowledged this and clicked `Yes`
+5. Was given a warning message about temporary network disconnection while Oracle VirtualBox installs. I acknowledged this and clicked `Yes`
 
 <img width="494" height="392" alt="image" src="https://github.com/user-attachments/assets/533990c4-7c09-472f-8633-d110acc3cf08" />
 
-7. It mentioned I was missing some dependencies, but since I'm not using Python for this project I acknowledged and clicked `Yes`
+6. It mentioned I was missing some dependencies, but since I'm not using Python for this project I acknowledged and clicked `Yes`
 
 <img width="496" height="392" alt="image" src="https://github.com/user-attachments/assets/1fc743b8-3c28-4384-8dc4-c09f0290d2d6" />
 
-8. Unchecked `Add to Start menu`, kept the other two options checked, and clicked `Next`
+7. Unchecked `Add to Start menu`, kept the other two options checked, and clicked `Next`
 
 <img width="494" height="392" alt="image" src="https://github.com/user-attachments/assets/1840bc5e-ba7f-4bdf-9326-500123ce2422" />
 
-9. Clicked `Install`
+8. Clicked `Install`
 
 <img width="495" height="391" alt="image" src="https://github.com/user-attachments/assets/de4ec14c-32c9-4c79-9aed-8df97762c3e8" />
 
-10. Once it successfully installed, I unchecked `Start Oracle VirtualBox 7.2.6` (because I'm going to be installing the VirtualBox Extension Pack before starting VB up) and clicked `Finish`
+9. Once it successfully installed, I unchecked `Start Oracle VirtualBox 7.2.6` (because I'm going to be installing the VirtualBox Extension Pack before starting VB up) and clicked `Finish`
 
 <img width="493" height="393" alt="image" src="https://github.com/user-attachments/assets/5822ac19-62a1-4ebf-844b-8e1e2093c6a0" />
 
-11. Went back to https://www.virtualbox.org/wiki/Downloads to download the VirtualBox Extension Pack and clicked `Accept and Download`
+10. Went back to https://www.virtualbox.org/wiki/Downloads to download the VirtualBox Extension Pack and clicked `Accept and Download`
 
 <img width="533" height="251" alt="image" src="https://github.com/user-attachments/assets/c785f887-e478-4a82-9c6e-7bd7b949e59e" />
 
-12. Clicked on the .exe file, scrolled down to the bottom of the agreements, and clicked `I Agree`
+11. Clicked on the .exe file, scrolled down to the bottom of the agreements, and clicked `I Agree`
 
 <img width="600" height="482" alt="image" src="https://github.com/user-attachments/assets/044dba1d-58bc-4f59-adb3-7a0890edb32d" />
 
@@ -78,10 +76,26 @@ Now Oracle VirtualBox and the VirtualBox Extension Pack are both installed succe
 ---
 
 ## Server Installation (DC)
-* **Image:** Windows Server 2022 Datacenter Evaluation (Desktop Experience).
-* **Setup:** Used a fresh "Custom" install to allocate disk space manually.
-* **Naming:** Renamed the PC to `DC` immediately for clarity.
-* **Redundancy:** Created a **Full Clone** named `Serverimage`. This ensures I have a "clean slate" backup if the environment ever breaks.
+1. Opened up Oracle VirtualBox and selected `New` from the home menu
+
+<img width="870" height="805" alt="image" src="https://github.com/user-attachments/assets/f1d4e683-eebc-4093-a33d-79842ac36142" />
+
+2. Named the VM `DC`, made sure to select the `SERVER_EVAL_x64FRE_en-us.iso` for the ISO Image, and unchecked `Proceed with Unattended Installation` since I'm setting this up myself
+
+<img width="1064" height="558" alt="image" src="https://github.com/user-attachments/assets/4c4f0f2a-c1f7-4dec-81f6-c7678cf87a89" />
+
+3. Clicked on the `Specify virtual hardware` and kept the `Base Memory` at 2048 MB (2 GB) and the `Number of CPUs` at 1
+
+<img width="1063" height="561" alt="image" src="https://github.com/user-attachments/assets/48921268-38d4-4eaa-8495-7e74a8635d8a" />
+
+4. Clicked on the `Specify virtual hard disk` drop down, selected `Create a New Virtual Hard Disk`, allocated 50 GB of storage for the VM, and clicked `Finished`
+
+<img width="1065" height="562" alt="image" src="https://github.com/user-attachments/assets/ffaa0011-a7c7-4d3b-a1dc-3117ecf8a3c3" />
+
+
+
+
+
 
 ---
 
