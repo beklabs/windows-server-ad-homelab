@@ -105,7 +105,7 @@ Now Oracle VirtualBox and the VirtualBox Extension Pack are both installed succe
 
 7. Clicked on `Network`, changed the `Attached to` to `Bridged Adapter`, made sure the `Name` displayed my correct internet connection, and clicked `OK`
 
-<img width="786" height="518" alt="image" src="https://github.com/user-attachments/assets/b5b65dff-d533-4c20-a7e2-53adcf9a2a2c" />
+<img width="786" height="518" alt="image" src="https://github.com/user-attachments/assets/53e4b001-b1e4-4a6f-b551-dc4c63dc998b" />
 
 8. Double-clicked on `DC`, kept the language, time and currency format, keyboard or input method as the defaults, and clicked `Next`
 
@@ -149,6 +149,27 @@ Now Oracle VirtualBox and the VirtualBox Extension Pack are both installed succe
 18. Right-clicked on the Windows Start and selected `System` then selected `Rename this PC`, renamed it to `DC`, clicked `Next`, and then clicked `Restart now`
 
 <img width="1022" height="773" alt="image" src="https://github.com/user-attachments/assets/4ced8cf0-a821-4c91-acf3-5950c754bd0a" /><img width="1022" height="769" alt="image" src="https://github.com/user-attachments/assets/81150ac6-644c-4572-970a-68ee163fdd31" /><img width="687" height="308" alt="image" src="https://github.com/user-attachments/assets/458722f1-5c1c-4af6-8e65-17ccdad02ee7" /><img width="689" height="220" alt="image" src="https://github.com/user-attachments/assets/05a0293c-5902-416f-8a06-d2054cc48ead" />
+
+19. Once the VM came back on, I clicked on `File`, Clicked `Close`, selected the option `Send the shutdown signal`, and clicked `OK`
+
+<img width="1030" height="799" alt="image" src="https://github.com/user-attachments/assets/735f4625-55a3-4244-bfb7-aeb289e404e6" /><img width="1020" height="799" alt="image" src="https://github.com/user-attachments/assets/0ee0d862-9b0b-44c6-9a3a-196b1a80c1e0" />
+
+20. While the VM server was shut down, I right-clicked on it and selected `Clone`, named it `Serverimage`, selected `Full Clone`, and clicked `Finish`
+>**This is so I can have an instance of it ready to go in case I need it on the future**
+
+<img width="865" height="739" alt="image" src="https://github.com/user-attachments/assets/551c7eda-3905-48a2-a208-8fc54cf9ba63" /><img width="624" height="411" alt="image" src="https://github.com/user-attachments/assets/77e4d007-f83e-43db-b785-ee3a15c9648b" />
+
+DC Server installation is now complete!
+
+---
+
+##Windows 10 Client Installation
+
+1. Opened up Oracle VirtualBox and selected `New` from the home menu
+
+
+
+
 
 
 
