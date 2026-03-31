@@ -24,6 +24,10 @@ Before starting this lab, you will need to download and install the following so
 
 ---
 
+<img width="644" height="526" alt="network-topology" src="https://github.com/user-attachments/assets/ed283565-15be-4964-9fb1-776aa1c93241" />
+
+---
+
 ## Project Overview
 [↑ Back to Table of Contents](#table-of-contents)
 
