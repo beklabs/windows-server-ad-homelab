@@ -1,6 +1,7 @@
-## Troubleshooting
+## **Issue: Active Directory Domain Controller (AD DC) Not Contacted**
 
-### **Issue: Active Directory Domain Controller (AD DC) Not Contacted**
+---
+
 > **Error Message:** *"An AD DC for the domain 'beklabs.org' could not be contacted. Ensure that the domain name is typed correctly. If the name is correct, click Details for troubleshooting information."*
 
 1. On the `DC` VM, clicked Windows Start icon, typed `CMD`, opened `CMD` and typed `ipconfig /all` to find the IPv4 address
