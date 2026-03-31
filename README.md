@@ -4,7 +4,7 @@
 ---
 
 ## Table of Contents
-1. [Prerequisites](#-prerequisites)
+1. [Prerequisites](#prerequisites)
 2. [Project Overview](#project-overview)
 3. [Installing Oracle VirtualBox and VirtualBox Extension Pack](#installing-oracle-virtualbox-and-virtualbox-extension-pack)
 4. [Server Installation (DC)](#server-installation-dc)
@@ -25,6 +25,16 @@ Before starting this lab, you will need to download and install the following so
 ---
 
 ## Project Overview
+[↑ Back to Table of Contents](#table-of-contents)
+
+This project demonstrates the implementation of a functional Windows Server 2022 environment and its integration with a Windows 10 client within a virtualized home lab. As an IT Administrator, the goal was to simulate a real-world enterprise network by deploying a Domain Controller (DC), configuring Active Directory Domain Services (AD DS), and managing user permissions and network connectivity.
+
+**Key Objectives:**
+* Deploying and managing multiple Virtual Machines (VMs) using Oracle VirtualBox with optimized hardware allocations
+* Installing and configuring Windows Server 2022 using the Desktop Experience GUI for full administrative control
+* Creating a new forest (`beklabs.org`) and managing a centralized directory of users and administrative groups
+* Solving critical "Real-World" connectivity hurdles, specifically regarding DNS resolution and protocol conflicts between server and client VMs
+* Utilizing VM Cloning to create images for rapid deployment and lab recovery
 
 ---
 
@@ -323,6 +333,7 @@ Windows 10 VM has been successfully installed!
 ---
 
 ## Troubleshooting
+[↑ Back to Table of Contents](#table-of-contents)
 
 ### **Issue: Active Directory Domain Controller (AD DC) Not Contacted**
 > **Error Message:** *"An AD DC for the domain 'beklabs.org' could not be contacted. Ensure that the domain name is typed correctly. If the name is correct, click Details for troubleshooting information."*
@@ -358,4 +369,13 @@ Windows 10 VM has been successfully installed!
 ---
 
 ## Conclusion
-This lab taught me that **DNS is the backbone of Active Directory**. Even if the machines are on the same network (Bridged), they won't communicate until the Client specifically knows to look at the DC for name resolution.
+[↑ Back to Table of Contents](#table-of-contents)
+
+The successful deployment of the `beklabs.org` domain serves as a foundational step in my journey as an IT Admin. This lab provided hands-on experience with the intricacies of Active Directory and the vital role that DNS plays in a Windows environment. 
+
+**Key Takeaways:**
+* The most significant challenge was the domain-join failure, which reinforced that AD DS is entirely dependent on correct DNS routing. Learning to manually point a client to a DC's static IPv4 is a fundamental skill in troubleshooting enterprise networks.
+* Disabling IPv6 and creating Administrative User groups reflects professional security and networking standards.
+* By creating clones (`Serverimage` and `Staff`), the lab is now ready for future expansion, such as implementing Group Policy Objects (GPOs), setting up a DHCP server, or testing software deployments.
+
+This environment now stands as a ready-to-use playground for advanced administrative tasks and security testing.
