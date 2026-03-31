@@ -55,7 +55,7 @@
 > **Connection Error:** If you see *"An AD DC for the domain 'beklabs.org' could not be contacted,"* this is a DNS mismatch. 
 <img width="475" height="479" alt="image" src="https://github.com/user-attachments/assets/52db88fa-febc-427d-95eb-59dac60df889" />
 
->**Quick Fix:** Manually set the Helpdesk VM's **Preferred DNS** to the DC's IPv4 address. See [Troubleshooting](#troubleshooting) for the full resolution.
+>**Quick Fix:** Manually set the Helpdesk VM's **Preferred DNS** to the DC's IPv4 address. See [Logs & Troubleshooting](#00-logs-and-troubleshooting) for the full resolution.
 
 14. Entered the credentials for `helpdesk blabs` and successfully joined the `beklabs.org` domain
 
