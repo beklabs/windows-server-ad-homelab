@@ -3,6 +3,6 @@ This directory contains Root Cause Analysis (RCA) reports and step-by-step resol
 
 | ID | Issue Description | Status | Related Phase |
 | :--- | :--- | :--- | :--- |
-| **KB100** | [AD DC Could Not Be Contacted (DNS Mismatch)](./KB100-DNS-Resolution-Error.md) | ✅ Resolved | Part 2 |
+| **KB100** | [AD DC Could Not Be Contacted (DNS Mismatch)](./KB100-DNS-Resolution-Error.md) | ✅ Resolved | [Part 2](Part-02_Active-Directory) |
 
 ---
