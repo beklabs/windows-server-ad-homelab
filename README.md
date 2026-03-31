@@ -15,7 +15,7 @@ This project demonstrates the deployment and administration of a professional Wi
 ## 🗺️ Project Roadmap
 To keep the documentation clean and scalable, this lab is divided into logical phases. Each folder contains detailed step-by-step instructions and screenshots.
 
-### 📁 [00: Logs & Troubleshooting](./00_Logs-and-Troubleshooting/)
+### 📁 [00: Logs & Troubleshooting](./00-logs-and-troubleshooting)
 * **Focus:** Root Cause Analysis (RCA) and Knowledge Base (KB) articles.
 * **Key Fix:** Resolving DNS mismatches and errors during Domain Join.
 
